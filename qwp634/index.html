@@ -1,0 +1,106 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+<title>海上钢琴师</title>
+<link href="web/style.css" rel="stylesheet" type="text/css" media="screen" />
+<link rel="stylesheet" type="text/css" href="web/guntu.css">
+<script src="web/js1.js" type="text/javascript"></script>
+<script src="web/js2.js" type="text/javascript"></script>
+</head>
+<body>
+<audio controls hidden="hidden" autoplay="autoplay" loop>
+  <source src="images/music.mp3" type="audio/ogg" />
+  <source src="images/music.mp3" type="audio/mpeg" />
+</audio>
+<bgsound src="images/music.mp3" autostart=true loop=-1>
+<div id="wrapper">
+  <div id="header-wrapper">
+  <div class="logotu"><img src="images/dati.jpg" width="1000" height="201"></div>
+
+	<div id="header">
+	  <div id="menu">
+        <ul>
+          <li class="current_page_item"><a href="index.html" class="first">网站首页</a></li>
+          <li><a href="web/daohang.html">快速导航</a></li>
+          <li><a href="web/juqing.html">电影剧情</a></li>
+          <li><a href="web/zhiyuan.html">演职员表</a></li>
+          <li><a href="web/jingcai.html">精彩之外</a></li>
+          <li><a href="web/shangxi.html">影片赏析</a></li>
+		      <li><a href="web/huojiang.html">获奖情况</a></li>
+          <li><a href=" https://siyuyang1.github.io/123/">回到寝室</a></li>
+
+        </ul>
+      </div>
+    </div>
+  </div>
+	
+	<div id="page">
+	<div id="page-bgtop">
+	<div id="page-bgbtm">
+		<div id="content">
+			<div class="post">
+				<h2 class="title"><a href="zuo.html" class="STYLE2">海报欣赏</a></h2>
+			    <p class="meta">&nbsp;</p>
+				<div class="entry"><div class="gundong">
+    <ul class="51buypic">
+        <li><a href="#" target="_blank"><img src="images/0.jpg" /></a></li>
+        <li><a href="#" target="_blank"><img src="images/1.jpg" /></a></li>
+        <li><a href="#" target="_blank"><img src="images/2.jpg" /></a></li>
+        <li><a href="#" target="_blank"><img src="images/3.jpg" /></a></li>
+        <li><a href="#" target="_blank"><img src="images/4.jpg" /></a></li>
+        <li><a href="#" target="_blank"><img src="images/5.jpg" /></a></li>
+        <li><a href="#" target="_blank"><img src="images/6.jpg" /></a></li>
+        <li><a href="#" target="_blank"><img src="images/7.jpg" /></a></li>
+    </ul>
+    <a class="prev" href="javascript:void(0)"></a>
+    <a class="next" href="javascript:void(0)"></a>
+    <div class="num">
+    	<ul></ul>
+    </div>
+</div>
+<script>
+/*鼠标移过，左右按钮显示*/
+$(".gundong").hover(function(){
+	$(this).find(".prev,.next").fadeTo("show",0.1);
+},function(){
+	$(this).find(".prev,.next").hide();
+})
+/*鼠标移过某个按钮 高亮显示*/
+$(".prev,.next").hover(function(){
+	$(this).fadeTo("show",0.7);
+},function(){
+	$(this).fadeTo("show",0.1);
+})
+$(".gundong").slide({ titCell:".num ul" , mainCell:".51buypic" , effect:"fold", autoPlay:true, delayTime:700 , autoPage:true });
+</script>
+				  <p>&nbsp;</p>
+			  </div>
+			</div>
+			<div class="post">
+				<h2 class="title"><a href="zuo.html" class="STYLE2">影片介绍</a></h2>
+			    <p class="meta">&nbsp;</p>
+				<div class="entry">
+				<div class="entry-bgtop">
+				<div class="entry-bgbtm">《海上钢琴师》是意大利著名导演朱塞佩·托纳托雷的“三部曲”之一。讲述了一个被命名为“1900”的弃婴在一艘远洋客轮上与钢琴结缘，成为钢琴大师的传奇故事。电影是由亚历山卓·巴利科1994年的剧场文本《1900：独白》所改编而成。</div>
+				</div>
+				</div>
+			</div>
+		</div>
+		
+		<div style="clear: both;">&nbsp;</div>
+	</div>
+	</div>
+	</div>
+	
+</div>
+<div id="footer-wrapper">
+  <div id="footer">
+    <div align="center"><span class="STYLE5"><br />
+      <br />
+      <span class="ziti">海上钢琴师</span></span></div>
+  </div>
+	
+</div>
+</body>
+</html>
